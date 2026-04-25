@@ -38,10 +38,6 @@ To build a real-time application that detects human faces using a webcam without
 * Works efficiently under normal lighting
 * Low latency performance
 
-### 📊 Output
-
-![Face Detection](face_output.png)
-
 ---
 
 ## 🚀 How to Run
