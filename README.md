@@ -4,6 +4,10 @@
 
 This project implements a real-time face detection system using OpenCV and a webcam. It detects human faces instantly from live video streams.
 
+## 🔧 Technologies Used
+- Python  
+- OpenCV  
+- NumPy   
 ---
 
 ## ❗ Problem Statement
@@ -33,10 +37,12 @@ To build a real-time application that detects human faces using a webcam without
 ---
 
 ## 📈 Results
+- Real-time face detection achieved  
+- Works efficiently under normal lighting  
+- Low latency performance  
 
-* Real-time face detection achieved
-* Works efficiently under normal lighting
-* Low latency performance
+**Real-world impact:**  
+Applicable in surveillance and real-time security systems.
 
 ---
 
