@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-This project implements a real-time face detection system using OpenCV and a webcam. It detects human faces instantly from live video streams, making it suitable for surveillance and basic cyber security applications.
+This project implements a real-time face detection system using OpenCV and a webcam. It detects human faces instantly from live video streams.
 
 ---
 
@@ -14,39 +14,49 @@ To build a real-time application that detects human faces using a webcam without
 
 ## ⚙️ Methodology
 
-### 1. Video Capture
+### Video Capture
 
 * Captured live video using webcam
 * Frame-by-frame processing
 
-### 2. Face Detection Model
+### Face Detection Model
 
 * Haar Cascade Classifier (OpenCV)
-* Pre-trained model for face detection
+* Pre-trained model
 
-### 3. Detection Process
+### Detection Process
 
 * Convert frames to grayscale
-* Detect faces using classifier
-* Draw bounding boxes around detected faces
+* Detect faces
+* Draw bounding boxes
 
 ---
 
 ## 📈 Results
 
-* Successfully detects faces in real-time
-* Works efficiently under normal lighting conditions
-* Low latency detection using OpenCV
+* Real-time face detection achieved
+* Works efficiently under normal lighting
+* Low latency performance
+
+### 📊 Output
+
+![Face Detection](face_output.png)
 
 ---
 
 ## 🚀 How to Run
 
 ```bash
-git clone https://github.com/your-username/real-time-face-detection.git
+git clone https://github.com/AishwaryGhadle/real-time-face-detection.git
 cd real-time-face-detection
 pip install -r requirements.txt
-python face_detection.py
+jupyter notebook
+```
+
+Open:
+
+```bash
+face_detection.ipynb
 ```
 
 ---
@@ -59,14 +69,15 @@ real-time-face-detection/
 ├── face_detection.ipynb
 ├── README.md
 ├── requirements.txt
+├── face_output.png
 ```
 
 ---
 
 ## 📌 Future Improvements
 
-* Add face recognition (identify person)
-* Improve detection in low light
+* Face recognition (identify individuals)
+* Improve low-light detection
 * Integrate with security systems
 
 ---
@@ -80,4 +91,5 @@ MIT License
 ## 👤 Author
 
 **Aishwary Ghadle**
+
 
