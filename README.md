@@ -69,7 +69,6 @@ real-time-face-detection/
 ├── face_detection.ipynb
 ├── README.md
 ├── requirements.txt
-├── face_output.png
 ```
 
 ---
